@@ -2,22 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
     
 }
 /* colori */
 .blue{
     color: #0061FF;
 }
+.black-text{
+    color: black;
+}
+.azzure{
+   background-color:#B4D0E7 ;
+}
+
 body{
     padding: 70px;
 }
-.container{
-    max-width: 1400px;
-    margin: 0 auto;
-}
 header{
     height: 70px;
-    padding: 20px;
     box-shadow: 0 0 3px #666;
     position: fixed;
     top: 0;
@@ -30,9 +33,9 @@ header .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 .navbar .col{
-
 }
 .navbar>div{
     flex-basis: 25%;
@@ -61,4 +64,27 @@ ul{
 a{
     text-decoration: none;
     color: #666;
+}
+.start{
+    color:white ;
+    padding: 10px 15px;
+    background-color: #0061FF;
+    margin-bottom: 5px;
+}
+/* jumbotron */
+#jumbotron{  
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#jumbotron .content{
+ height: 61%;
+ width: 69%;
+ font-size: 31px;
+ 
 }
