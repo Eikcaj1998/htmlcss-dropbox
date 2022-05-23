@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* colori */
+.blue{
+    color: #0061FF;
+}
+body{
+    padding: 70px;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header{
+    height: 70px;
+    padding: 20px;
+    box-shadow: 0 0 3px #666;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .col{
+
+}
+.navbar>div{
+    flex-basis: 25%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    height: 30px;
+    display: block;
+    margin: 0 auto;  
+}
+.main-menu{
+    padding-right: 20px;
+}
+
+.user-menu li{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
