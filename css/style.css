@@ -11,7 +11,10 @@
     padding: 10px 15px;
     background-color: #0061FF;
     margin-bottom: 5px;
+    display: block;
+    
 }
+.white{color: white;}
 
 .black-text{
     color: black;
@@ -19,17 +22,34 @@
 .azzure{
    background-color:#B4D0E7 ;
 }
-.blue-bord{
-
+/* Margini */
+.mg-10{
+    margin-top: 10px;
+}
+.mg-20{
+    margin-top: 20px;
+}
+.mg-40{
+    margin-top: 40px;
+}
+.mg-50{
+    margin-top: 50px;
 }
 
 body{
-    padding: 70px;
+    padding-top: 70px;
 }
+/* header */
 header{
     height: 70px;
     box-shadow: 0 0 3px #666;
-    padding-bottom: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+
     
 }
 header .navbar{
@@ -37,11 +57,6 @@ header .navbar{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
 }
 .navbar>div{
     flex-basis: 25%;
@@ -49,11 +64,8 @@ header .navbar{
 .navbar ul{
     display: flex;
     justify-content: space-between;
-}
-ul{
-    list-style-type: none;
-    display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 #logo{
     height: 30px;
@@ -89,28 +101,24 @@ a{
  border: 2px solid black;
  height: 600px;
 }
-title{
-    padding: 20px;
-}
+
 h1{font-size: 60px;
+    padding: 20px;
 
 }
 .info{
-   
     height: 88%;
     width: 38%;
     font-size: 18px;
- 
-
 }
-.gratis{
-    text-align: ;
+.info img{
+    width: 100%;
 }
+/* main */
 .container{
-
+    padding-top: 100px;
     width: 1400px;
     margin: 0 auto; 
-    border: 2px solid grey;
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -136,9 +144,8 @@ h1{font-size: 60px;
     border: 6px solid #0061FF;
     
 }
+/* colonne */
 .container .column{
-    border: 2px solid black;
-
     display: flex;
     width: 1400px;
     justify-content: space-between;
@@ -149,7 +156,6 @@ h1{font-size: 60px;
     
     flex-direction: column;
     width: calc(100% / 3 - 60px);
-    padding: ;
 }
 .single{
     text-align: center;
@@ -168,6 +174,27 @@ h1{font-size: 60px;
 li i{
     padding: 5px;
 }
+
+.plane{
+    font-size: 28px;
+}
+.choose{
+    vertical-align: middle;
+    padding-right: 50px;
+}
+.circle{
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.check{
+    border: 6px solid #0061FF;
+    
+}
 .line{
     border: 1px solid gray;
     width: 58px;
@@ -176,33 +203,65 @@ li i{
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.mg-10{
-    margin-top: 10px;
-}
-.mg-20{
-    margin-top: 20px;
-}
-.mg-40{
-    margin-top: 40px;
-}
-.mg-50{
-    margin-top: 50px;
-}
+
 .offers {
     color: #0362FF;
 }
+/* team */
 .team{
     border: 2px solid black;
     text-align: center;
     
 }
 .sub-team{
-    border: 2px solid black;
+    border:2px solid black;
     text-align: center;
     
 }
 .enterprise{
+    
     display: flex;
     justify-content: space-between;
+    text-align: start;
 
+}
+
+.family{
+    width: 1400px;
+    padding-top: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+.partner{
+    width: 60%;
+}
+
+.partner img{
+    width:100%;
+}
+.partner-txt{
+    width: 30%;
+    padding-left:30px ;
+}
+.partner-txt h2{
+    font-size: 30px;
+}
+.sub-title{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.business{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.col-business{
+    width: calc(100% / 3 - 60px);
+}
+.col-business img{
+    width: 100%;
 }
