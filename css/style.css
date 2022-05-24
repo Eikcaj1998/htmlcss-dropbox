@@ -117,7 +117,7 @@ h1{font-size: 60px;
 /* main */
 .container{
     padding-top: 100px;
-    width: 1400px;
+    width: 1500px;
     margin: 0 auto; 
     display: flex;
     text-align: left;
@@ -147,7 +147,7 @@ h1{font-size: 60px;
 /* colonne */
 .container .column{
     display: flex;
-    width: 1400px;
+    width: 1500px;
     justify-content: space-between;
     
 }
@@ -227,7 +227,7 @@ li i{
 }
 
 .family{
-    width: 1400px;
+    width: 1500px;
     padding-top: 200px;
     margin: 0 auto;
     display: flex;
@@ -247,12 +247,12 @@ li i{
     font-size: 30px;
 }
 .sub-title{
-    width: 1400px;
+    width: 1500px;
     margin: 0 auto;
     padding-top: 200px;
 }
 .business{
-    width: 1400px;
+    width: 1500px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -263,5 +263,26 @@ li i{
     width: calc(100% / 3 - 60px);
 }
 .col-business img{
+    width: 100%;
+}
+.chess{
+    margin: 0;
+    width: 1500px;
+    padding-top: 200px;
+    display: flex;
+    width: calc(100% / 3);
+    justify-content: flex-start;
+}
+.block{
+    display:flex;
+}
+.square{
+    width: 250px;
+    border: 20px solid #D1E9CD;
+    height: 400px;
+    background-color: #A2D39B;
+}
+.square img
+{
     width: 100%;
 }
