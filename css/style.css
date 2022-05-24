@@ -6,14 +6,21 @@
     
 }
 /* colori */
-.blue{
-    color: #0061FF;
+.start{
+    color:white ;
+    padding: 10px 15px;
+    background-color: #0061FF;
+    margin-bottom: 5px;
 }
+
 .black-text{
     color: black;
 }
 .azzure{
    background-color:#B4D0E7 ;
+}
+.blue-bord{
+
 }
 
 body{
@@ -22,11 +29,7 @@ body{
 header{
     height: 70px;
     box-shadow: 0 0 3px #666;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+    padding-bottom: 100px;
     
 }
 header .navbar{
@@ -34,8 +37,11 @@ header .navbar{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-}
-.navbar .col{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 .navbar>div{
     flex-basis: 25%;
@@ -65,26 +71,138 @@ a{
     text-decoration: none;
     color: #666;
 }
-.start{
-    color:white ;
-    padding: 10px 15px;
-    background-color: #0061FF;
-    margin-bottom: 5px;
-}
 /* jumbotron */
-#jumbotron{  
+#jumbotron{
+    height: 700px;
     width: 100%;
-    padding: 0;
-    margin: 0;
+
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    
 
 }
 #jumbotron .content{
- height: 61%;
- width: 69%;
- font-size: 31px;
+ width: 50%;
+ border: 2px solid black;
+ height: 600px;
+}
+title{
+    padding: 20px;
+}
+h1{font-size: 60px;
+
+}
+.info{
+   
+    height: 88%;
+    width: 38%;
+    font-size: 18px;
  
+
+}
+.gratis{
+    text-align: ;
+}
+.container{
+
+    width: 1400px;
+    margin: 0 auto; 
+    border: 2px solid grey;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    text-align: left;
+}
+.plane{
+    font-size: 28px;
+}
+.choose{
+    vertical-align: middle;
+    padding-right: 50px;
+}
+.circle{
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.check{
+    border: 6px solid #0061FF;
+    
+}
+.container .column{
+    border: 2px solid black;
+
+    display: flex;
+    width: 1400px;
+    justify-content: space-between;
+    
+}
+.tariff-plan{
+    border: 2px solid black;
+    
+    flex-direction: column;
+    width: calc(100% / 3 - 60px);
+    padding: ;
+}
+.single{
+    text-align: center;
+    padding: 5px 0;
+    border: 2px solid black;
+    
+
+}
+.tariff-plan ul{
+    list-style-type: none;
+}
+.column .col{
+    margin-left: 20px;  
+}
+
+li i{
+    padding: 5px;
+}
+.line{
+    border: 1px solid gray;
+    width: 58px;
+}
+.type{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.mg-10{
+    margin-top: 10px;
+}
+.mg-20{
+    margin-top: 20px;
+}
+.mg-40{
+    margin-top: 40px;
+}
+.mg-50{
+    margin-top: 50px;
+}
+.offers {
+    color: #0362FF;
+}
+.team{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.sub-team{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+
 }
