@@ -115,7 +115,7 @@ h1{font-size: 60px;
     width: 100%;
 }
 /* main */
-.container{
+.container-x{
     padding-top: 100px;
     width: 1500px;
     margin: 0 auto; 
@@ -145,7 +145,7 @@ h1{font-size: 60px;
     
 }
 /* colonne */
-.container .column{
+.container-x .column{
     display: flex;
     width: 1500px;
     justify-content: space-between;
@@ -167,7 +167,7 @@ h1{font-size: 60px;
 .tariff-plan ul{
     list-style-type: none;
 }
-.column .col{
+.column .col-x{
     margin-left: 20px;  
 }
 
@@ -265,24 +265,45 @@ li i{
 .col-business img{
     width: 100%;
 }
-.chess{
-    margin: 0;
-    width: 1500px;
+.container{
+    margin: 0 auto;
+    width: 100%;
     padding-top: 200px;
     display: flex;
-    width: calc(100% / 3);
-    justify-content: flex-start;
 }
-.block{
-    display:flex;
-}
-.square{
-    width: 250px;
-    border: 20px solid #D1E9CD;
-    height: 400px;
-    background-color: #A2D39B;
-}
-.square img
-{
+.row{
+    display: flex;
+    margin: 0 ;
     width: 100%;
+    width: calc(100% / 3);
+    flex-wrap: wrap; 
+}
+.col{
+    margin: 0;
+    width: 100%;
+    width: calc(100% / 2);
+    flex-wrap: wrap;
+}
+.row-1{
+    width: 100%;
+    border: 20px solid #D1E9CD;
+    height: 336px;
+    background-color: #A2D39B;
+    position: relative;
+    
+}
+.row-1 img
+{
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.row-logo img{
+    width: 75%;
+    padding: 40px;
 }
