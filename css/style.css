@@ -19,9 +19,13 @@
 .black-text{
     color: black;
 }
+.brown{
+    color: #61082B;
+}
 .azzure{
    background-color:#B4D0E7 ;
 }
+.bg-black{background-color: black;}
 .bg-green{
     border: 20px solid #D1E9CD;
     background-color: #A2D39B;
@@ -283,7 +287,7 @@ li i{
 }
 .row{
     display: flex;
-    margin: 0 ;
+    margin: 0 auto ;
     width: 100%;
     flex-wrap: wrap; 
 }
@@ -322,4 +326,71 @@ li i{
     border-top: 1px solid black;
     margin: 60px 0;
     
+}
+.free-trial
+{
+    display: flex;
+    margin: 0 auto;
+    background-color:#B4D0E7;
+    justify-content: space-around;
+    padding:100px;
+}
+.free-trial h2{
+    width: 20%;
+    font-size: 35px;
+}
+.free-trial a{
+    
+    padding: 15px 50px;
+    background-color: white;
+}
+.faq{
+    width: 1500px;
+    padding-top: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+.faq ul{
+    list-style-type: none;
+    padding-top: 100px;
+    
+}
+.faq li{
+    border:solid grey;
+    border-width: 2px 0;
+    padding: 50px 0px;
+    display: flex;
+}
+.row .coll{
+ display: flex;
+
+}
+
+.footer-top{
+    width: 70%;
+     padding: 30px;
+     margin: 0 auto;
+    display: flex;
+     justify-content: space-between;
+    align-content: center;
+}
+
+.note{
+    display: flex;
+    flex-basis: 100%;
+}
+.note ul{
+    flex-basis: 25%;
+}
+.note h3{
+    font-size: 30px;
+}
+.white p{
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.white i {
+    color: white;
+    margin-bottom: 1px;
+    padding-left: 5px;
 }
